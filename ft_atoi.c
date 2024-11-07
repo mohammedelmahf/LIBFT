@@ -6,7 +6,7 @@
 /*   By: maelmahf <maelmahf@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 11:59:03 by maelmahf          #+#    #+#             */
-/*   Updated: 2024/11/07 14:15:31 by maelmahf         ###   ########.fr       */
+/*   Updated: 2024/11/07 14:21:00 by maelmahf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_atoi(const char *str)
 {
-	int i;
-	int sign;
-	long long rslt;
+	int			i;
+	int			sign;
+	long long	rslt;
 
 	i = 0;
 	sign = 1;
