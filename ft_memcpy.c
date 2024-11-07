@@ -6,7 +6,7 @@
 /*   By: maelmahf <maelmahf@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 11:57:00 by maelmahf          #+#    #+#             */
-/*   Updated: 2024/11/06 16:14:28 by maelmahf         ###   ########.fr       */
+/*   Updated: 2024/11/07 17:45:45 by maelmahf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	size_t	i;
 
 	i = 0;
-	if (!dest && !src)
+	if (!dest)
 		return (NULL);
 	while (n > i)
 	{
