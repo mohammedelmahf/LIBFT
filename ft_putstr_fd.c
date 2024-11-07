@@ -6,7 +6,7 @@
 /*   By: maelmahf <maelmahf@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 12:07:16 by maelmahf          #+#    #+#             */
-/*   Updated: 2024/11/06 16:10:31 by maelmahf         ###   ########.fr       */
+/*   Updated: 2024/11/07 14:05:04 by maelmahf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
 
+	if (fd < 0)
+		return ;
 	i = 0;
 	while (s[i])
 	{

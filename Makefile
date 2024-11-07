@@ -48,7 +48,6 @@ OBJS_B = ${BONUS:.c=.o}
 CC = cc
 FLAGS = -Wall -Werror -Wextra
 RM = rm -rf
-INCS = .
 
 .c.o:
 	${CC} ${FLAGS} -c $< -o ${<:.c=.o}
